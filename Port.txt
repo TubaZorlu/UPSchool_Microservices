@@ -1,0 +1,8 @@
+identity port --- 5001
+catalog projesi portu --5011
+photostock-- 5012
+basket portu --5013
+discount -- 5014
+order -- 5015
+fakepaymet -- 5016
+gateway -- 5000

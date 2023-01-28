@@ -1,0 +1,9 @@
+mongo
+postreSql
+sqlLite
+Postman
+Redis kütüphane
+JwtKütüphane
+docker
+DapperOrm kütüphane
+DBeaver

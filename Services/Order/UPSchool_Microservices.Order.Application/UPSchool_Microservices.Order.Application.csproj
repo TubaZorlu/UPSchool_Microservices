@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Results\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\UpSchollECommerce.Shared\UpSchollECommerce.Shared.csproj" />
+    <ProjectReference Include="..\UPSchool_Microservices.Order.Domain\UPSchool_Microservices.Order.Domain.csproj" />
+    <ProjectReference Include="..\UPSchool_Microservices.Order.Infrastructure\UPSchool_Microservices.Order.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
